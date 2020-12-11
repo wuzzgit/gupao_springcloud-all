@@ -19,7 +19,6 @@ public class RibbonController {
     private RestTemplate restTemplate;
 
     @GetMapping("/getConsumerTest")
-    @AvoidScan
     public String test(){
         String result = restTemplate.getForObject("http://ribbon-provider-server/provider/test/getProviderTest", String.class);
         System.out.println(result);
