@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * 测试ribbon
+ * 测试ribbon负载均衡
  * @author wuzongzhao
  * @date 2020/12/11 16:05
  */
